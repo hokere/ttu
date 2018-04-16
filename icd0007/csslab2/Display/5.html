@@ -1,0 +1,32 @@
+<html>
+<head>
+<style>
+h2 { display: none; }
+ul {
+  background-color: #ebebeb;
+  /* padding:  */
+  display: inline-block;
+  padding: 10px 15px;
+}
+ul li {
+  display: inline-block;
+  font-weight: bold;
+}
+ul li::after {
+  content: " / "
+}
+ul li:last-child::after {
+  content: ""
+}
+</style>
+</head>
+<body>
+<h2>Breadcrumb</h2>
+<ul class="breadcrumb">
+  <li><a href="#">Home</a></li>
+  <li><a href="#">Courses</a></li>
+  <li><a href="#">ICD0007</a></li>
+  <li>CSS 2</li>
+</ul>
+</body>
+</html>
